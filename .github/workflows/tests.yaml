@@ -72,3 +72,4 @@ jobs:
         path: ./.mypy_cache
         key: mypy|${{ hashFiles('pyproject.toml') }}
     - run: uv run --locked --no-default-groups --group dev tox run -e typing
+# stability test copy
