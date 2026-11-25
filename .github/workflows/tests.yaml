@@ -3,6 +3,8 @@ name: Tests
   push:
     branches:
     - hist/**
+  schedule:
+  - cron: '37 5 * * *'
   workflow_dispatch:
     inputs:
       label:
